@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExample {
+  overflow: hidden;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.carousel-item {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or object-fit: cover; depending on your preference */
+}
