@@ -11,16 +11,18 @@ body {
 
 #carouselExample {
   overflow: hidden;
+  margin-top: 5vh;
 }
 
 .carousel-inner {
   width: 100%;
+  background-attachment: fixed;
 }
 
 .carousel-item {
   object-fit: cover;
   width: 100%;
-  height: 100vh; /* Set the height to cover the entire viewport */
+  height: 85vh; /* Set the height to cover the entire viewport */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,6 +33,8 @@ body {
   height: 100%;
   object-fit: cover;
   background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #navbarNav button.btn {
@@ -80,4 +84,36 @@ body {
 .carousel-control-prev,
 .carousel-control-next {
   z-index: 3; /* Ensure the controls are above the title and overlay */
+}
+
+/*Carousel backgrounds*/
+#Philbrook {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Philbrook_Festival.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center;
+}
+#Roosevelt {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Christmas\ Dining.png');
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center;
+}
+#Nutcracker {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/NutcrackerThumbnail.png');
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center; 
+}
+#Arvest {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Arvest\ skating\ rink.png');
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center; 
+}
+#Rhema {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Rhema\ Christmas\ lights.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+ background-position: center;  
 }
