@@ -9,45 +9,13 @@ body {
   width: 100%;
 }
 
-#carouselExample {
-  overflow: hidden;
-  margin-top: 5vh;
-}
-
-.carousel-inner {
-  width: 100%;
-  background-attachment: fixed;
-}
-
-.carousel-item {
-  object-fit: cover;
-  width: 100%;
-  height: 85vh; /* Set the height to cover the entire viewport */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: center;
+.logo-img {
+  max-width: 130px;
+  height: auto;
 }
 
 #navbarNav button.btn {
   margin-left: auto;
-}
-
-#title {
-  position: absolute;
-  top: 18%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 2; /* Ensure the title is above the carousel */
 }
 
 .navbar-nav .nav-item {
@@ -58,32 +26,56 @@ body {
   margin-left: 15px;
 }
 
+#carouselExample {
+  overflow: hidden;
+  margin-top: 6vh;
+}
+
+.carousel-inner {
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.carousel-item {
+  object-fit: cover;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* The carousel container */
 #carouselExample {
   position: relative;
   overflow: hidden;
 }
 
-/* The background overlay for the carousel */
-.carousel-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for transparency */
-  z-index: 1; /* Ensure the overlay is behind the title */
-}
-
-/* Style for the title text */
-#title h1 {
-  font-size: 3em; /* Adjust the font size as needed */
-}
-
 /* Style for the carousel control buttons */
 .carousel-control-prev,
 .carousel-control-next {
   z-index: 3; /* Ensure the controls are above the title and overlay */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item .title {
+  position: absolute;
+  top: 15vh; /* Adjust the top position as needed */
+  left: 15vh; /* Adjust the left position as needed */
+  z-index: 1;
+  color: white;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 600;
+}
+
+.carousel-item .btn {
+  position: absolute;
+  bottom: 20vh; /* Adjust the bottom position as needed */
+  right: 30vh; /* Adjust the left position as needed */
+  z-index: 1;
 }
 
 /*Carousel backgrounds*/
@@ -100,7 +92,7 @@ body {
  background-position: center;
 }
 #Nutcracker {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/NutcrackerThumbnail.png');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Nutcracker.jpg');
   background-size: cover;
   background-attachment: fixed;
  background-position: center; 
