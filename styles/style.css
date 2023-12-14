@@ -39,7 +39,7 @@ body {
 .carousel-item {
   object-fit: cover;
   width: 100%;
-  height: 85vh;
+  height: 87vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,15 +70,18 @@ body {
   color: white;
   font-size: 2rem !important;
   height: 20%;
-  width: 50%;
+  width: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.custom-title {
+  font-size: 2.5em; 
+}
 
 .carousel-item .btn {
   position: absolute;
-  bottom: 20vh; /* Adjust the bottom position as needed */
+  bottom: 25vh; /* Adjust the bottom position as needed */
   right: 30vh; /* Adjust the left position as needed */
   z-index: 1;
 }
@@ -91,26 +94,63 @@ body {
  background-position: center;
 }
 #Roosevelt {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Christmas\ Dining.png');
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/Christmas\ Dining.png');
   background-size: cover;
   background-attachment: fixed;
  background-position: center;
 }
 #Nutcracker {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Nutcracker.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Nutcracker.jpg');
   background-size: cover;
   background-attachment: fixed;
  background-position: center; 
 }
 #Arvest {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Arvest\ skating\ rink.png');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Arvest\ skating\ rink.png');
   background-size: cover;
   background-attachment: fixed;
  background-position: center; 
 }
 #Rhema {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Rhema.jpeg');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/Rhema.jpeg');
   background-size: cover;
   background-attachment: fixed;
  background-position: center;  
+}
+
+#content-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  
+}
+#content-title h1 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 3.5rem;
+}
+.event-sn {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 30px;
+  margin-top: 80px;
+}
+.event-sn img {
+  width: 20%;
+}
+
+.event-cnt {
+  width: 55%;
+  justify-content: center;
+}
+.book-now {
+  display: flex;
+  justify-content: space-around;
+}
+.price h6 {
+  align-items: center;
+  justify-content: center;
+}
+.book-now button {
+  width: 100px;
 }

@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap"" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=League+Spartan:wght@600&display=swap"" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel='shortcut icon' type='x-icon' href='styles/images/favicon.ico'>
   </head>
@@ -50,7 +50,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active" id="Philbrook">
             <div class="container-fluid title">
-              <h1>Philbrook Festival Night</h1>
+              <h1 class="custom-title">Philbrook Festival Night</h1>
             </div> 
             <div class="container-fluid">
               <button type="button" class="btn btn-primary btn-lg">Learn more</button>
@@ -58,7 +58,7 @@
           </div>
           <div class="carousel-item" id="Roosevelt">
             <div class="container-fluid title">
-              <h1>Dining at Roosevelt's</h1>
+              <h1 class="custom-title">Dining at Roosevelt's</h1>
             </div>
             <div class="container-fluid">
               <button type="button" class="btn btn-primary btn-lg">Learn more</button>
@@ -66,7 +66,7 @@
           </div>
           <div class="carousel-item" id="Nutcracker">
             <div class="container-fluid title">
-              <h1>The Nutcracker Ballet</h1>
+              <h1 class="custom-title">The Nutcracker Ballet</h1>
             </div>
             <div class="container-fluid">
               <button type="button" class="btn btn-primary btn-lg">Learn more</button>
@@ -74,7 +74,7 @@
           </div>
           <div class="carousel-item" id="Arvest">
             <div class="container-fluid title">
-              <h1>Arvest Skating Rink</h1>
+              <h1 class="custom-title">Arvest Skating Rink</h1>
             </div>
             <div class="container-fluid">
               <button type="button" class="btn btn-primary btn-lg">Learn more</button>
@@ -82,7 +82,7 @@
           </div>
           <div class="carousel-item" id="Rhema">
             <div class="container-fluid title">
-              <h1>Christmas Lights at Rhema</h1>
+              <h1 class="custom-title">Christmas Lights at Rhema</h1>
             </div>
             <div class="container-fluid">
               <button type="button" class="btn btn-primary btn-lg">Learn more</button>
@@ -98,13 +98,94 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="card mb-3">
-        <img src="styles/images/Philbrook_Festival.jpeg" class="card-img-right rounded-circle img-thumbnail" alt="Philbrook_Festival">
-        <div class="card-body">
-          <h5 class="card-title">Your Title Here</h5>
-          <p class="card-text">Your text content goes here.</p>
+      <!-- Content of events -->
+      <div>
+        <div id="content-title">
+          <h1>Events</h1>
+        </div>
+      <div class="container-fluid event-sn">
+          <img src="styles/images/Philbrook_Festival.jpeg" class="rounded-circle img-thumbnail" alt="Philbrook_Festival">
+          <div class="event-cnt">
+            <h4 class="card-title">Philbrook Festival Night</h4>
+            <p class="card-text">Thousands of spectacular lights illuminate the Philbrook Gardens for a festive experience unlike any other. Celebrate the season with hot cocoa, musical light shows, make-and-take art projects, and more.</p>
+            <h5>Thursday, December 28</h5>
+              <h5>5:30pm – 9:30pm</h5>
+              <div class="book-now">
+                <div class="price">
+                  <h6>$22 Adults</h6>
+                  <h6>$8 Youth (17 & Under)</h6>
+                </div>
+              <button type="button" class="btn btn-outline-danger">Book now</button>
+            </div>
+              <h6>2727 S Rockford Rd, Tulsa, OK 74114</h6>
+        </div>
+        </div>
+        <div class="container-fluid event-sn">
+          <img src="styles/images/Christmas Dining.png" class="rounded-circle img-thumbnail" alt="Christmas Dining">
+          <div class="event-cnt">
+            <h4 class="card-title">DINING AT ROOSEVELT’S</h4>
+            <p class="card-text">Enjoy great food, great drinks and the Tens of thousands of Christmas lights while dining, These decorations total $150,000 and can be seen from anywhere in the Cherry Street restaurant</p>
+            <h5>EVERYDAY</h5>
+              <h5>11:00am – 10:00pm</h5>
+              <div class="book-now">
+              <button type="button" class="btn btn-outline-danger">Book now</button>
+            </div>
+              <h6>1551 E 15th St, Tulsa, OK 74120</h6>
+        </div>
+        </div>
+        <div class="container-fluid event-sn">
+          <img src="styles/images/Nutcracker.jpg" class="rounded-circle img-thumbnail" alt="Nutcracker">
+          <div class="event-cnt">
+            <h4 class="card-title">The Nutcracker Ballet</h4>
+            <p class="card-text">Join us for this story of a young girl’s magical journey on Christmas Eve, set in 19th century Germany. From the epic battle between the Nutcracker Prince’s army of toy soldiers and the Mouse King’s minions</p>
+            <h5>December 9-23</h5>
+              <h5>2pm @ 7pm</h5>
+              <div class="book-now">
+                <div class="price">
+                  <h6>$35 tickets </h6>
+                  <h6>(seating may change price)</h6>
+                </div>
+              <button type="button" class="btn btn-outline-danger">Book now</button>
+            </div>
+              <h6>1212 East 45th Place South Tulsa, Oklahoma 74105</h6>
+        </div>
+        </div>
+        <div class="container-fluid event-sn">
+          <img src="styles/images/Arvest skating rink.png" class="rounded-circle img-thumbnail" alt="Arvest skating">
+          <div class="event-cnt">
+            <h4 class="card-title">ARVEST ICE-SKATING RINK</h4>
+            <p class="card-text">The time has come to bundle up and enjoy the magical spirit of the holidays as Tulsa's favorite winter celebration returns to downtown Tulsa. The 16th Annual Winterfest will kick off another season of fun.</p>
+            <h5>December 1 - JANURARY 2</h5>
+              <h5>5pm - 10pm</h5>
+              <div class="book-now">
+                <div class="price">
+                  <h6>single - $12 tickets</h6>
+                  <h6>Group - $8 tickets </h6>
+                </div>
+              <button type="button" class="btn btn-outline-danger">Book now</button>
+            </div>
+              <h6>200 South Denver Tulsa, OK 74103</h6>
+        </div>
+        </div>
+        <div class="container-fluid event-sn">
+          <img src="styles/images/Rhema.jpeg" class="rounded-circle img-thumbnail" alt="Rhema Christmas Lights">
+          <div class="event-cnt">
+            <h4 class="card-title">Rhema Christmas Lights</h4>
+            <p class="card-text">Experience the Rhema Christmas Lights Extravaganza, a dazzling holiday tradition since 1982. Millions of newer, energy-efficient LED lights adorn the 110-acre campus, illuminating the night.</p>
+            <h5>November 22 - Janurary 1</h5>
+              <h5>6:30pm – 11:30pm</h5>
+              <div class="book-now">
+                <div class="price">
+                  <h6>FREE ADMISSION</h6>
+                  <h6>CARRIAGE RIDES - $10</h6>
+                </div>
+              <button type="button" class="btn btn-outline-danger">More info</button>
+            </div>
+              <h6>1025 W Kenosha St, Broken Arrow, OK 74012</h6>
+        </div>
         </div>
       </div>
+    </div>
     </main>
     <footer>
 
