@@ -10,7 +10,7 @@ body {
 }
 
 .logo-img {
-  max-width: 130px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -63,12 +63,17 @@ body {
 
 .carousel-item .title {
   position: absolute;
-  top: 15vh; /* Adjust the top position as needed */
-  left: 15vh; /* Adjust the left position as needed */
+  top: 20vh; /* Adjust the top position as needed */
+  left: 10vh; /* Adjust the left position as needed */
   z-index: 1;
-  color: white;
   font-family: 'League Spartan', sans-serif;
-  font-weight: 600;
+  color: white;
+  font-size: 2rem !important;
+  height: 20%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .carousel-item .btn {
@@ -104,7 +109,7 @@ body {
  background-position: center; 
 }
 #Rhema {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Rhema\ Christmas\ lights.jpeg');
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Rhema.jpeg');
   background-size: cover;
   background-attachment: fixed;
  background-position: center;  
