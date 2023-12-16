@@ -16,6 +16,7 @@ body {
 
 #navbarNav button.btn {
   margin-left: auto;
+  border-radius: 2px;
 }
 
 .navbar-nav .nav-item {
@@ -63,26 +64,34 @@ body {
 
 .carousel-item .title {
   position: absolute;
-  top: 5vh; /* Adjust the top position as needed */
-  left: -17vh; /* Adjust the left position as needed */
+  top: 10vh; /* Adjust the top position as needed */
   z-index: 1;
-  font-family: 'League Spartan', sans-serif;
+  text-align: center;
   color: white;
   font-size: 2rem !important;
   height: 20%;
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  display: block;
 }
+
+.carousel-item .title p {
+  font-size: 0.8em;
+}
+
 .custom-title {
   font-size: 2.5em;
+  font-family: 'League Spartan', sans-serif;
+  
 }
 
 .carousel-item .btn {
+  width: 25vh;
+  height: 8vh;
+  font-size: 1.6em;
+  border-radius: 3px;
   position: absolute;
   bottom: 25vh; /* Adjust the bottom position as needed */
-  right: 30vh; /* Adjust the left position as needed */
+  right: 45vh; /* Adjust the left position as needed */
   z-index: 1;
 }
 
@@ -308,4 +317,30 @@ body {
 .SignUpHeader {
   text-align: center;
   font-family: 'League Spartan', sans-serif;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+}
+.contact i {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: inherit;
+}
+.contact a:hover {
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+}
+
+#address {
+  margin-top: 20px;
+}
+
+#cont {
+  width: 80%;
 }
