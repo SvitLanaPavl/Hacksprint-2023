@@ -284,14 +284,28 @@
           </div>
         </div>
         </div>
-        <div class="col-sm-5 text-light">
+        <!-- Subscribe -->
+        <div class="col-sm-5 text-light initial-state">
     <h4>Subscribe</h2>
     <p>We thank you for your interest!
       To sign up for our newsletter
       please fill out the form.</p> 
           <div class="form-group">
+            <div class="email-error hidden">Sorry, wrong format</div>
             <input type="email" class="form-control" placeholder="Email Address">
-            <button type="button" class="col-12 btn-block btn btn-primary mt-3">Subscribe</button>
+            <button type="button" class="subscribe col-12 btn-block btn btn-primary mt-3">Subscribe</button>
+          </div>
+        </div>
+
+        <!-- Confirmed -->
+        <div class="col-sm-5 text-light confirmed-state hidden">
+            <h3>Thanks for subscribing!</h3>
+          <div class="confirmed-body">
+            <p>A confirmation email has been sent to <span class="email-confirmed bold-text"></span>.
+            Please open it and click the button inside to confirm your subscription.</p>
+            <button type="button" class="dismiss btn btn-primary">
+              Dismiss
+            </button>
           </div>
         </div>
         </div>
@@ -299,5 +313,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    </script>
   </body>
 </html>
