@@ -241,7 +241,7 @@ body {
 /* Styling for about us section */
 .About_us_container {
   width: 960px;
-  margin: 0 auto 10rem auto;
+  margin: 0 auto 2rem auto;
 }
 .About_us_header {
   padding: 0 0 3rem;
@@ -385,4 +385,7 @@ body {
 .hidden_anchors {
   color: transparent;
   user-select: none;
+}
+#about {
+  padding-top: 1rem;
 }
