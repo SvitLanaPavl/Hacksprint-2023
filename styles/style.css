@@ -9,6 +9,8 @@ body {
   width: 100%;
 }
 
+/* Navbar */
+
 .logo-img {
   max-width: 100px;
   height: auto;
@@ -26,6 +28,8 @@ body {
 .navbar-nav .btn {
   margin-left: 15px;
 }
+
+/* Landing */
 
 #carouselExample {
   overflow: hidden;
@@ -95,7 +99,6 @@ body {
   z-index: 1;
 }
 
-/*Carousel backgrounds*/
 #Philbrook {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Philbrook_Festival.jpeg');
   background-size: cover;
@@ -126,6 +129,8 @@ body {
   background-attachment: fixed;
   background-position: center;  
 }
+
+/* Content sections */
 
 #content-title {
   display: flex;
@@ -343,4 +348,22 @@ body {
 
 #cont {
   width: 80%;
+}
+
+.hidden {
+  display: none;
+}
+
+.bold-text {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.email-error {
+  color: rgba(227, 48, 36);
+  margin-bottom: 7px;
+}
+
+.confirmed-state h3 {
+  color: rgb(48, 165, 48);
 }
