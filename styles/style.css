@@ -21,6 +21,10 @@ body {
 .logo-img {
   max-width: 100px;
   height: auto;
+  transition: transform .7s ease-in-out;
+}
+.logo-img:hover {
+  transform: rotate(360deg);
 }
 
 #navbarNav button.btn {
@@ -350,14 +354,16 @@ body {
 
 #about_us {
   position: relative;
-  width: 80%;
-  height: 85%;
+  width: 65vh;
+  height: 75vh;
   outline: solid black;
+
 }
 
 #about_us_cont {
   width: 100%;
   height: 100%;
+  display: flex;
 }
 /* Newsletter card styling */
 .card {
