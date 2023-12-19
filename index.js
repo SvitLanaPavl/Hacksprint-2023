@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const audio = new Audio('audio/1-06 It\'s the Most Wonderful Time of the Year.mp3');
+  const play = document.getElementById('absolute-button');
+  play.addEventListener('click', (event) => {
+    if (audio.paused) {
+      audio.volume = 0.2;
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+
 const email = document.querySelector('input');
 const subscribe = document.querySelector('.subscribe');
 const error = document.querySelector('.email-error');
@@ -44,3 +56,4 @@ email.addEventListener('keypress', (e) => {
 
 subscribe.addEventListener('click', submitHandler);
 dismiss.addEventListener('click', resetState);
+});

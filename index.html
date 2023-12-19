@@ -35,6 +35,9 @@
             autoResize: true
         });
     </script>
+    <div class="bg-body-secondary">
+      <!--<audio id="song" src="audio/1-06 It's the Most Wonderful Time of the Year.mp3" preload="auto"></audio>-->
+      <button id="absolute-button"></button>
     <header>
       <!-- The navbar -->
       <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
@@ -68,8 +71,8 @@
     </header>
     <main>
       <!-- The carousel -->
-      <div id="carouselExample" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
+      <div id="carouselExample" class="carousel slide carousel-fade"> 
+        <div class="carousel-inner"> 
           <div class="carousel-item active" id="Philbrook">
             <div class="container-fluid title">
               <h1 class="custom-title">Philbrook Festival Night</h1>
@@ -78,7 +81,7 @@
             
             <div class="container-fluid">
               <a href="#Philbrook_Festival">
-                <button type="button" class="btn btn-primary btn-lg">Learn more</button>
+                <button type="button" id="landing-btn" class="btn btn-primary btn-lg">Learn more</button>
               </a>
             </div>
           </div>
@@ -137,12 +140,13 @@
         </button>
       </div>
       <!-- Content of events -->
-      <div>
+      <div class="bg-body-secondary">
+        <div class="bg-body-secondary">
         <div id="content-title">
           <h1 id="Philbrook_Festival">Events</h1>
         </div>
-      <div class="event_container">
-      <div class="container-fluid event-sn">
+      <div class="event_container card" style="width: 90%; height: 85vh; margin: auto">
+      <div class="container-fluid event-sn card-body text-center mt-5">
         <div class="Circles">
           <img src="styles/images/Philbrook_Festival.jpeg" class="circle_img" alt="Philbrook_Festival">
         </div>
@@ -156,7 +160,7 @@
                   <h6>$22 Adults</h6>
                   <h6>$8 Youth (17 & Under)</h6>
                 </div>
-              <a href="https://philbrook.org/calendar/festival-night-2023-12-28/">
+              <a href="https://my.philbrook.org/28999/29014" target="_blank">
                 <button type="button" class="btn btn-outline-danger">Book now</button>
               </a>
             </div>
@@ -165,8 +169,8 @@
         </div>
         <div class="hidden_anchors" id="Roosevelts"><h1>anchor2</h1></div>
       </div>
-        <div class="event_container">
-        <div class="container-fluid event-sn">
+        <div class="event_container card mt-5" style="width: 90%; height: 85vh; margin: auto">
+        <div class="container-fluid event-sn card-body text-center mt-5">
           <div class="Circles">
             <img src="styles/images/Christmas Dining.png" class="circle_img" alt="Christmas Dining">
           </div>
@@ -180,8 +184,8 @@
         </div>
           <div class="hidden_anchors" id="Nutcracker_Ballet"><h1>anchor3</h1></div>
         </div>
-      <div class="event_container">
-        <div class="container-fluid event-sn">
+      <div class="event_container card mt-5" style="width: 90%; height: 85vh; margin: auto">
+        <div class="container-fluid event-sn card-body text-center mt-5">
           <div class="Circles">
             <img src="styles/images/Nutcracker.jpg" class="circle_img" alt="Nutcracker">
           </div>
@@ -195,7 +199,7 @@
                   <h6>$35 tickets </h6>
                   <h6>(seating may change price)</h6>
                 </div>
-              <a href="https://tulsaballet.org/event/the-nutcracker/">
+              <a href="https://tulsaballet.org/event/the-nutcracker/" target="_blank">
                 <button type="button" class="btn btn-outline-danger">Book now</button>
               </a>
             </div>
@@ -204,8 +208,8 @@
         </div>
         <div class="hidden_anchors" id="Skating"><h1>anchor4</h1></div>
       </div>
-      <div class="event_container">
-        <div class="container-fluid event-sn">
+      <div class="event_container card mt-5" style="width: 90%; height: 85vh; margin: auto">
+        <div class="container-fluid event-sn card-body text-center mt-5">
           <div class="Circles">
             <img src="styles/images/Arvest skating rink.png" class="circle_img" alt="Arvest skating">
           </div>
@@ -219,7 +223,7 @@
                   <h6>Single - $12 tickets</h6>
                   <h6>Group - $8 tickets </h6>
                 </div>
-              <a href="https://www.tulsawinterfest.com/">
+              <a href="https://www.tulsawinterfest.com/" target="_blank">
                 <button type="button" class="btn btn-outline-danger">Book now</button>
               </a>
             </div>
@@ -228,8 +232,8 @@
         </div>
         <div class="hidden_anchors" id="Rhema_lights"><h1>anchor5</h1></div>
       </div>
-      <div class="event_container">
-        <div class="container-fluid event-sn">
+      <div class="event_container card mt-5" style="width: 90%; height: 85vh; margin: auto">
+        <div class="container-fluid event-sn card-body text-center mt-5">
           <div class="Circles">
             <img src="styles/images/Rhema.jpeg" class="circle_img" alt="Rhema Christmas Lights">
           </div>
@@ -243,7 +247,7 @@
                   <h6>FREE ADMISSION</h6>
                   <h6>CARRIAGE RIDES - $10</h6>
                 </div>
-              <a href="https://www.rhemalights.org/">
+              <a href="https://www.rhemalights.org/" target="_blank">
                 <button type="button" class="btn btn-outline-danger">More info</button>
               </a>
             </div>
@@ -252,16 +256,16 @@
         </div>
       </div>
       <div class="hidden_anchors" id="about"><h1>about</h1></div>
-    </div>
     <!-- About us section -->
-      <div class="About_us_container">
+      <div class="About_us_container card mt-5 pb-6 mb-5" style="width: 90%; height: 85vh; margin: auto;">
+        <div class="card-body container-fluid">
         <header class="About_us_header">
           <h2 class="About_us_title">About us</h2>
         </header>
         <div class="About_us_body">
           <div class="row">
             <div class="About_us_content">
-              <img src="styles/images/about_us_temp.png" alt="temp" width="460" height="570">
+              <img src="styles/images/about_us_temp.png" alt="temp" width="80%" height="100%">
             </div>
             <div class="About_us_content">
               <h3>Who we are</h3>
@@ -274,25 +278,9 @@
           </div>
         </div>
       </div>
-    <!-- Newsletter section -->
-    <!--<section id="Newsletter">
-      <div class="SignUpHeader">
-        <h1>Sign up for our Newsletter!</h1>
-      </div>
-      <div class="card_container">
-        <div class="card">
-          <span class="card_title">Subscribe</span>
-          <p class="card_content">We thank you alot for your interest!
-            To sign up for our newsletter
-            please fill out the form below.
-          </p>
-          <div class="card_form">
-              <input placeholder="Your Email" type="text">
-              <button class="sign-up">Sign up</button>
-          </div>
-        </div>
-      </div>
-    </section>-->
+    </div>
+    </div>
+    </div>
     </main>
     <footer id="footer" class="container-fluid bg-dark px-6 pt-5 pb-5">
       <div class="container">
@@ -344,8 +332,8 @@
       </div>
       </div>
     </footer>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-    </script>
   </body>
 </html>
