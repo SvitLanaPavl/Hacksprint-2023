@@ -331,8 +331,8 @@ body {
 }
 /* .Circles for sizing of circle image */
 .Circles {
-  width: 505px;
-  height: 500px;
+  width: 40%;
+  height: 85%;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 0 4px white;
@@ -348,7 +348,7 @@ body {
   margin: auto;
 }
 .About_us_header {
-  padding: 0 0 3rem;
+  padding: 0 0 6rem;
   text-align: center;
 }
 .About_us_title {
@@ -359,7 +359,7 @@ body {
   
 }
 .About_us_body {
-  padding: 0 5rem 8rem;
+  padding: 0 4rem 6rem;
 }
 .About_us_content {
   width: 50%;
@@ -375,9 +375,9 @@ body {
 }
 /* Newsletter card styling */
 .card {
-  width: 240px;
-  height: 254px;
-  padding: 0 15px;
+  width: 90%;
+  height: 85vh;
+  padding: 0 10px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -386,7 +386,7 @@ body {
   gap: 12px;
   background: #fff;
   border-radius: 20px;
-  margin: 5 4 3 2;
+  margin: auto;
 }
 .card > * {
   margin: 0;
@@ -405,7 +405,7 @@ body {
   align-items: center;
   justify-content: center;
   padding-left: 50rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .contact {
@@ -453,7 +453,7 @@ body {
 }
 
 .event_container {
-  margin-bottom: 9rem;
+  margin-bottom: 3rem;
 }
 
 .hidden_anchors {
@@ -462,4 +462,7 @@ body {
 }
 #about {
   padding-top: 1rem;
+}
+#holb {
+  width: 60%;
 }
