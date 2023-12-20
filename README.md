@@ -5,7 +5,7 @@ On December 20th 2023 C21 will have their first Hacksprint! A Hacksprint is the 
 We have created a one page, interactive website. Our website focuses on tourism in Tulsa, Oklahoma specifically in the winter. We highlight five different activities that we found fun and interesting to do, from dining, to ice-skating! Our website sorts out fun events/activities to do in the winter, while giving the user information about each event, including hours open, ticketing prices, location, and a short description of what they are looking at. Each event has a clickable button that sends the user to the official website of the chosen event so they could get more information.
 
 # How to test our website 🧪
-Find the latest release of our website through github, its hosted by github and no download is required!
+[Click Me!](https://svitlanapavl.github.io/Hacksprint-2023/), The website is hosted by github and no download is required!
 
 # Quick Tour of Our Website :eyes:
 <img width="1280" alt="LandingPage" src="https://github.com/SvitLanaPavl/Hacksprint-2023/assets/126730794/757d04c5-8e07-4219-92de-41a0b34abdda">
