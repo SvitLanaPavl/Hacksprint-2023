@@ -11,6 +11,7 @@ We have created a one page, interactive website. Our website focuses on tourism 
 <img width="1280" alt="LandingPage" src="https://github.com/SvitLanaPavl/Hacksprint-2023/assets/126730794/757d04c5-8e07-4219-92de-41a0b34abdda">
 
 As you can see in the image above, the user is greeted with an absolutely mesmerizing landing page. The user can click on the arrows to go left or right and see what other events are displayed on the carousel. The user has the option to click on the "learn more" button if they are interested in that specific event. Once the button is clicked they get sent to a section about that event where they see the following details; hours open, ticketing prices, location, and a short description of what they are looking at. Heres an example below:
+![image](https://github.com/SvitLanaPavl/Hacksprint-2023/assets/126730794/8f319336-807b-4741-b508-d015e22ee86a)
 
 # Tools/Frameworks used 📖
 - HTML/CSS
