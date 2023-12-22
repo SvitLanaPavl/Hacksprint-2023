@@ -44,27 +44,15 @@ body {
 
 #carouselExample {
   overflow: hidden;
-  margin-top: 6vh;
 }
 
 .carousel-inner {
-  width: 100%;
   background-attachment: fixed;
 }
 
 .carousel-item {
   object-fit: cover;
-  width: 100%;
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* The carousel container */
-#carouselExample {
-  position: relative;
-  overflow: hidden;
 }
 
 /* Style for the carousel control buttons */
@@ -79,9 +67,8 @@ body {
 
 .carousel-item .title {
   position: absolute;
-  top: 15vh; /* Adjust the top position as needed */
+  top: 20vh;
   z-index: 1;
-  text-align: center;
   color: white;
   font-size: 2rem !important;
   height: 20%;
@@ -98,38 +85,39 @@ body {
   font-family: 'League Spartan', sans-serif;
   
 }
-
-.carousel-item .btn {
-  width: 30vh;
-  height: 8vh;
-  font-size: 2em;
-  border-radius: 5px;
+.landing-btn {
   position: absolute;
-  top: 56vh;
-  right: 60vh;
-  z-index: 1;
-  font-size: 1.8em;
-  background-color: rgba(23, 73, 223);
-  border: rgba(23, 73, 223);
-  
+  top: 68vh;
+  width: 80%;
+}
+.carousel-item .btn {
+  font-size: 1.4em;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+  float: right;
 }
 .carousel-item .btn:hover {
-  opacity: 0.9;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 /* Play/pause button */
 #absolute-button {
-  width: 100px;
-  height: 100px;
-  background: radial-gradient( rgba(23, 73, 223, 0.8) 60%, rgba(255, 255, 255, 1) 62%);
+  width: 10vh;
+  height: 10vh;
+  background: radial-gradient(rgb(30,144,255, 0.8) 60%, rgba(255, 255, 255, 1) 62%);
   border-radius: 50%;
   position: absolute;
-  top: 45vh;
-  left: 60vh;
+  bottom: 7vh;
+  left: 10vh;
   z-index: 3;
   display: block;
-  margin: 100px auto;
-  box-shadow: 0px 0px 25px 3px rgba(23, 73, 223, 0.8);
+  margin: auto;
+  box-shadow: 0px 0px 25px 3px rgb(30,144,255, 0.8);
 }
 
 /* triangle */
@@ -206,6 +194,52 @@ body {
 
   }
 }
+@media (max-width: 860px) {
+  .custom-title {
+    font-size: 2em;
+  }
+  .landing-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Decrease button size */
+  .carousel-item .btn {
+    font-size: 1.3em;
+    padding: 0.5em 1.6em;
+  }
+  #absolute-button {
+    bottom: 3vh;
+    left: 3vh;
+  }
+}
+
+@media (max-width: 485px) {
+  .custom-title {
+    font-size: 1.5em;
+  } 
+    .title p {
+      font-size: 0.8em
+    }
+    .landing-btn {
+      top: 60vh;
+    }
+
+}
+
+@media (max-width: 280px) {
+  .custom-title {
+    font-size: 1.1em;
+  }
+  .title p {
+    font-size: 0.4em
+  }
+  
+  .landing-btn {
+    top: 70vh;
+  }
+}
+
 
 /* End animation */
 
