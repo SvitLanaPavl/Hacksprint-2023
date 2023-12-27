@@ -81,7 +81,7 @@ body {
 }
 
 .custom-title {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-family: 'League Spartan', sans-serif;
   
 }
@@ -222,7 +222,7 @@ body {
       font-size: 0.8em
     }
     .landing-btn {
-      top: 60vh;
+      top: 65vh;
     }
 
 }
@@ -288,7 +288,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 17vh; 
 }
 #content-title h1 {
   font-family: 'League Spartan', sans-serif;
@@ -305,7 +304,7 @@ body {
 /* Event Titles */
 .event-cnt h4 {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4vw;
   font-family: Bayon;
   font-weight: 400;
   line-height: normal; 
@@ -323,7 +322,7 @@ body {
 .event-cnt h5 {
   font-family: Bayon;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal; 
@@ -364,36 +363,40 @@ body {
   border-radius: 50%;
   overflow: hidden;
   object-fit: cover;
-  width: 55vh;
-  height: 50vh;
+  width: 50vh;
+  height: 45vh;
 }
-
-@media (max-width: 1141px) {
+@media (max-width: 1010px) {
   .circle_img {
-    width: 53vh;
-    height: 47vh;
+    width: 49vh;
+    height: 44vh; 
   }
-  .event-cnt h4 {
-    font-size: 3rem;
+
+.event-cnt {
+  width: 100%;
+}
+}
+@media (max-width: 1141px) {
+  
+  .circle_img {
+    width: 47vh;
+    height: 42vh;
   }
 };
 
 @media (max-width: 979px) {
-.event-cnt h4 {
-    font-size: 2rem;
+  .circle_img {
+    width: 45vh;
+    height: 40vh;
   }
 };
 
 /* Styling for about us section */
 
-.About_us_title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#about {
+
   font-family: 'League Spartan', sans-serif;
-  font-weight: 400;
-  font-size: 3em;
-  
+  font-size: 2rem;
 }
 
 .About_us_content h3 {
@@ -434,7 +437,6 @@ body {
   margin: 0;
 }
 .card_title {
-  font-weight: 900;
   color: #333;
 }
 
@@ -490,9 +492,7 @@ body {
   color: transparent;
   user-select: none;
 }
-#about {
-  padding-top: 1rem;
-}
+
 #holb {
   width: 60%;
 }
