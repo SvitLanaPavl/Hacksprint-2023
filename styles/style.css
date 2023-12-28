@@ -238,6 +238,10 @@ body {
   .landing-btn {
     top: 70vh;
   }
+  
+  .event-cnt button {
+    font-size: 0.4rem;
+  }
 }
 
 
@@ -298,13 +302,13 @@ body {
   justify-content: space-around;
 }
 .event-cnt {
-  width: 55%;
+
   justify-content: center;
 }
 /* Event Titles */
 .event-cnt h4 {
   text-align: center;
-  font-size: 4vw;
+  font-size: 3rem;
   font-family: Bayon;
   font-weight: 400;
   line-height: normal; 
@@ -358,38 +362,55 @@ body {
   font-size: 1.9em;
   font-family: Bayon;
 }
-/* .Circle_img fills .Circles's set parameters */
-.circle_img {
-  border-radius: 50%;
-  overflow: hidden;
-  object-fit: cover;
-  width: 50vh;
-  height: 45vh;
+
+@media (max-width: 1012px) {
+  .event-cnt h4 {
+    font-size: 2.5rem; 
+  }
+  .event-cnt button {
+    font-size: 1.7em;
+  }
 }
-@media (max-width: 1010px) {
-  .circle_img {
-    width: 49vh;
-    height: 44vh; 
+
+@media (max-width: 480px) {
+  .event-cnt button {
+    font-size: 1.4em;
+  } 
+}
+.rounded-circle {
+  height: 30vw;
+}
+/* .Circle_img fills .Circles's set parameters */
+
+@media (max-width: 930px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Circle {
+    width: 100%;
+  }
+  .rounded-circle {
+    width: 37vh;
+    height: 35vh;
   }
 
 .event-cnt {
   width: 100%;
 }
 }
-@media (max-width: 1141px) {
-  
-  .circle_img {
-    width: 47vh;
-    height: 42vh;
-  }
-};
 
-@media (max-width: 979px) {
-  .circle_img {
-    width: 45vh;
-    height: 40vh;
-  }
-};
+
+
+
+@media (max-width: 500px) {
+
+
+ 
+  
+}
+
 
 /* Styling for about us section */
 
