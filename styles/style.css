@@ -40,6 +40,12 @@ body {
   margin-left: 15px;
 }
 
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+  }
+}
+
 /* Landing */
 
 #carouselExample {
@@ -112,8 +118,8 @@ body {
   background: radial-gradient(rgb(30,144,255, 0.7) 60%, rgba(255, 255, 255, 1) 62%);
   border-radius: 50%;
   position: fixed;
-  bottom: 7vh;
-  left: 10vh;
+  bottom: 5vh;
+  left: 7vh;
   z-index: 3;
   display: block;
   margin: auto;
@@ -227,6 +233,13 @@ body {
 
 }
 
+@media (max-width: 375px){
+  .landing-btn {
+    top: 69vh;
+  }
+
+}
+
 @media (max-width: 280px) {
   .custom-title {
     font-size: 1.1em;
@@ -236,7 +249,7 @@ body {
   }
   
   .landing-btn {
-    top: 70vh;
+    top: 73vh;
   }
   
   .event-cnt button {
@@ -402,16 +415,6 @@ body {
 }
 
 
-
-
-@media (max-width: 500px) {
-
-
- 
-  
-}
-
-
 /* Styling for about us section */
 
 #about {
@@ -419,7 +422,6 @@ body {
   font-family: 'League Spartan', sans-serif;
   font-size: 2rem;
 }
-
 .About_us_content h3 {
   font-family: 'League Spartan', sans-serif;
 }
@@ -429,16 +431,16 @@ body {
 
 #about_us {
   position: relative;
-
   outline: solid black;
+  width: 44vh;
+  margin-right: 2rem;
 
 }
-
-#about_us_cont {
-  width: 100%;
-  height: 100%;
-  display: flex;
+.about-txt {
+  text-align: justify;
+  text-justify: inter-word;
 }
+
 /* Newsletter card styling */
 .card {
   width: 90%;
@@ -460,15 +462,10 @@ body {
   color: #333;
 }
 
-.contact {
-  display: flex;
-  justify-content: flex-end;
-}
 .contact i {
   margin-left: 15px;
   margin-bottom: 15px;
 }
-
 .contact a {
   text-decoration: none;
   color: inherit;
@@ -485,6 +482,7 @@ body {
 #cont {
   width: 80%;
 }
+
 
 .hidden {
   display: none;
@@ -514,5 +512,5 @@ body {
 }
 
 #holb {
-  width: 60%;
+  width: 20vw;
 }
