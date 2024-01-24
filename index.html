@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=League+Spartan:wght@600&display=swap"" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&family=League+Spartan:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel='shortcut icon' type='x-icon' href='styles/images/favicon.ico'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,38 +37,40 @@
     </script>
     <div class="bg-body-secondary">
       <div class="bg-body-secondary">
-      <!--<audio id="song" src="audio/1-06 It's the Most Wonderful Time of the Year.mp3" preload="auto"></audio>-->
-    <header>
+
+
+      <header>
       <!-- The navbar -->
       <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="styles/images/winterintulsalogowhite.png" alt="logo" class="logo-img"></a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
       <span class="navbar-toggler-icon"></span>
-    </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#Philbrook_Festival">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Art</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Dining</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About us</a>
-              </li>
-              <a href="#footer">
-                <button type="button" class="btn btn-light">Contact</button>
-              </a>
-            </ul>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Philbrook_Festival">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Nutcracker_Ballet">Art</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Roosevelts">Dining</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+            <li class="nav-item"><a href="#footer">
+              <button type="button" class="btn btn-light">Contact</button>
+            </a></li>
+        </ul>
             
-          </div>
-        </div>
+      </div>
+    </div>
       </nav>
     </header>
+
     <main class="w-100 text-center">
       <!-- The carousel -->
       <div id="carouselExample" class="carousel slide carousel-fade mb-4"> 
@@ -280,7 +282,7 @@
       </div>
     <!-- About us section -->
    
-  <h1><b>About us</b></h1>
+  <h1 id="about"><b>About us</b></h1>
 
 <div class="card p-3 mb-5 mt-4">
   <div class="container-fluid">
@@ -296,13 +298,13 @@
           <h3>Our goals</h3>
           <p>As aspiring full-stack web developers, our ambitions fuel our dedication to this project. We envision using our skills across front-end and back-end development, mastering various programming languages, frameworks, and technologies essential in the web development landscape. Through this project, we aim to solidify our understanding, refine our problem-solving abilities, and create a tangible showcase of our capabilities. </p>
       </div>-->
-      <img id="about_us" src="styles/images/about_us_temp.png" class="img-responsive img-fluid col-sm-6 float-md-start mb-3 mr-3">
+      <img id="about_us" src="styles/images/about_us_temp.png" class="img-responsive img-fluid col-sm-6 float-md-start mb-3 mr-2">
       <h3>Who we are</h3> 
-      <p>We are two dedicated Holberton students, passionately teamed up for this trimester's Hacksprint! With complementary skills and a shared enthusiasm for coding, we bring a blend of creativity and technical skills to the table. Our collaboration aims to combine our strengths and make our project innovative and excellent.</p>
+      <p class="about-txt">We are two dedicated Holberton students, passionately teamed up for this trimester's Hacksprint! With complementary skills and a shared enthusiasm for coding, we bring a blend of creativity and technical skills to the table. Our collaboration aims to combine our strengths and make our project innovative and excellent.</p>
       <h3>How we work</h3>
-      <p>Our partnership is built on fairness and collaboration. We believe in fair distribution of tasks, ensuring we are actively engaged and contributing to the project's success. Regular communication, brainstorming sessions, and a commitment to leveraging each other's expertise define our collaborative approach.</p>
-          <h3>Our goals</h3>
-          <p>As aspiring full-stack web developers, our ambitions fuel our dedication to this project. We envision using our skills across front-end and back-end development, mastering various programming languages, frameworks, and technologies essential in the web development landscape. Through this project, we aim to solidify our understanding, refine our problem-solving abilities, and create a tangible showcase of our capabilities. </p>
+      <p class="about-txt">Our partnership is built on fairness and collaboration. We believe in fair distribution of tasks, ensuring we are actively engaged and contributing to the project's success. Regular communication, brainstorming sessions, and a commitment to leveraging each other's expertise define our collaborative approach.</p>
+      <h3>Our goals</h3>
+      <p class="about-txt">As aspiring full-stack web developers, our ambitions fuel our dedication to this project. We envision using our skills across front-end and back-end development, mastering various programming languages, frameworks, and technologies essential in the web development landscape. Through this project, we aim to solidify our understanding, refine our problem-solving abilities, and create a tangible showcase of our capabilities. </p>
   </div>
 
 </div>
@@ -310,23 +312,23 @@
     </div>
     </main>
     <footer id="footer" class="container-fluid bg-dark px-6 pt-5 pb-5">
-      <div class="container">
+      <div class="container-fluid">
       <div class="row">
-        <div class="col-sm text-light m-1">
+        <div class="col-sm col-md text-light m-1">
           <h4><img src="styles/images/Holberton.png" id="holb"></h4>
           <p id="address">15 N Cheyenne Ave
           Tulsa, OK 74103</p>
         </div>
-        <div class="col-sm text-light m-1">
+        <div class="col-sm col-md text-light m-1">
           <div id="cont">
-          <div class="contact">
+          <div class="contact d-flex justify-content-between">
             <h4>Svitlana Pavlovska</h4>
             <div class="d-flex">
             <a href="https://www.linkedin.com/in/svitlana-pavlovska-833b43184/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
             <a href="https://github.com/SvitLanaPavl" target="_blank"><i class="fa fa-github-square" style="font-size:36px"></i></a>
           </div>
           </div>
-          <div class="contact">
+          <div class="contact d-flex justify-content-between">
             <h4>Eric Dzyk</h4>
             <div class="d-flex">
             <a href="https://www.linkedin.com/in/eric-dzyk-1b8976213/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
@@ -336,7 +338,7 @@
         </div>
         </div>
         <!-- Subscribe -->
-        <div class="col-sm-5 text-light initial-state">
+        <div class="col-sm-5 text-light">
     <h4>Subscribe</h2>
     <p>We thank you for your interest!
       To sign up for our newsletter
@@ -364,7 +366,11 @@
       </div>
     </footer>
   </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha384-Mfs5Z2nAL4g5n2d9b7doqAaYVh9lF3u5erU4R/jVEATeO7zOFYfa2i1Y53tMOGIb" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>-->
     <script src="index.js"></script>
   </body>
 </html>

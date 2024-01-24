@@ -40,6 +40,12 @@ body {
   margin-left: 15px;
 }
 
+@media (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+  }
+}
+
 /* Landing */
 
 #carouselExample {
@@ -112,8 +118,8 @@ body {
   background: radial-gradient(rgb(30,144,255, 0.7) 60%, rgba(255, 255, 255, 1) 62%);
   border-radius: 50%;
   position: fixed;
-  bottom: 7vh;
-  left: 10vh;
+  bottom: 5vh;
+  left: 7vh;
   z-index: 3;
   display: block;
   margin: auto;
@@ -430,6 +436,10 @@ body {
   margin-right: 2rem;
 
 }
+.about-txt {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /* Newsletter card styling */
 .card {
@@ -452,15 +462,10 @@ body {
   color: #333;
 }
 
-.contact {
-  display: flex;
-  justify-content: space-between;
-}
 .contact i {
   margin-left: 15px;
   margin-bottom: 15px;
 }
-
 .contact a {
   text-decoration: none;
   color: inherit;
@@ -477,6 +482,7 @@ body {
 #cont {
   width: 80%;
 }
+
 
 .hidden {
   display: none;
@@ -506,5 +512,5 @@ body {
 }
 
 #holb {
-  width: 60%;
+  width: 20vw;
 }
